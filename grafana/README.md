@@ -1,4 +1,4 @@
-What is Grafana?
+**What is Grafana?**
 
 Grafana is an open-source platform for data visualization, monitoring, and analysis. 
 It allows you to create and display interactive, customizable dashboards with real-time monitoring and analytics capabilities.
@@ -11,3 +11,11 @@ extend the platform’s capabilities and create custom visualizations and integr
 Grafana is widely used in industries such as IT, finance, healthcare, and more, for monitoring and analyzing various metrics, logs, 
 and sensor data. It is known for its user-friendly interface, ease of use, and powerful features, making it a popular 
 choice for data visualization and monitoring.
+
+**To install Grafana from grafana-installation.sh**
+
+git clone grafana-installation.sh
+
+chmod +x grafana-installation.sh
+
+./grafana-installation.sh
