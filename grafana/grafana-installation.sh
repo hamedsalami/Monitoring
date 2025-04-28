@@ -6,7 +6,7 @@ cd prometheus-3.3.0.linux-amd64
 sudo mv prometheus promtool /usr/local/bin/
 sudo mv prometheus.yml /etc/prometheus/prometheus.yml
 sudo chown -R mikrotik:mikrotik /etc/prometheus/ /data/
-cd
+cd Monitoring/grafana
 sudo cp ./prometheus.service /etc/systemd/system
 ## Install Node Exporter
 wget https://github.com/prometheus/node_exporter/releases/download/v1.9.1/node_exporter-1.9.1.linux-amd64.tar.gz
