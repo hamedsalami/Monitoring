@@ -12,7 +12,7 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.9.1/node_e
 tar xzf node_exporter-1.9.1.linux-amd64.tar.gz
 mv node_exporter-1.9.1.linux-amd64/node_exporter /usr/local/bin/
 rm -rf node_exporter*
-cp ./node_exporter.service /etc/systemd/system
+sudo cp ./node_exporter.service /etc/systemd/system
 sudo systemctl enable node_exporter
 sudo systemctl start node_exporter
 
@@ -22,12 +22,12 @@ tar xzf snmp_exporter-0.21.0.linux-amd64.tar.gz
 cd snmp_exporter-0.21.0.linux-amd64
 sudo cp ./snmp_exporter /usr/local/bin/snmp_exporter
 sudo cp ./snmp.yml /usr/local/bin/snmp.yml
-cp ./snmp-exporter.service /etc/systemd/system
+sudo cp ./snmp-exporter.service /etc/systemd/system
 systemctl daemon-reload
 sudo service snmp-exporter start
 sudo systemctl enable snmp-exporter
 ##
-cp ./prometheus.service /etc/prometheus
+sudo cp ./prometheus.service /etc/prometheus
 sudo systemctl enable prometheus
 sudo systemctl start prometheus
 sudo systemctl status prometheus
