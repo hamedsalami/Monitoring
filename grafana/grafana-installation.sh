@@ -1,8 +1,3 @@
-## Create User
-sudo adduser mikrotik
-sudo adduser mikrotik sudo
-su mikrotik
-cd
 ## Install Prometheus
 wget https://github.com/prometheus/prometheus/releases/download/v3.3.0/prometheus-3.3.0.linux-amd64.tar.gz
 tar xzf prometheus-3.3.0.linux-amd64.tar.gz
