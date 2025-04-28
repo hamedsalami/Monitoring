@@ -27,10 +27,12 @@ scrape_configs:
 
     static_configs:
       - targets: ["localhost:9090"]
-    - job_name: node_export
+
+  - job_name: node_export
     static_configs:
       - targets: ["localhost:9100"]
-        - job_name: snmp
+
+  - job_name: snmp
     metrics_path: /snmp
     params:
       module: [mikrotik]
@@ -43,4 +45,4 @@ scrape_configs:
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: localhost:9116  # URL as shown on the UI
+        replacement: localhost:9116  # URL as shown on the UI      
