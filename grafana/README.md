@@ -19,7 +19,7 @@ sudo adduser mikrotik
 sudo adduser mikrotik sudo
 
 su mikrotik
-
+cd
 git clone grafana-installation.sh
 
 chmod +x grafana-installation.sh
