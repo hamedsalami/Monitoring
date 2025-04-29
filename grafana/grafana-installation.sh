@@ -22,7 +22,7 @@ tar xzf snmp_exporter-0.21.0.linux-amd64.tar.gz
 cd snmp_exporter-0.21.0.linux-amd64
 sudo cp ./snmp_exporter /usr/local/bin/snmp_exporter
 sudo cp ./snmp.yml /usr/local/bin/snmp.yml
-sudo cp ./snmp-exporter.service /etc/systemd/system
+sudo cp ./snmp_exporter.service /etc/systemd/system
 systemctl daemon-reload
 sudo systemctl start snmp_exporter
 sudo systemctl enable snmp_exporter
