@@ -28,7 +28,6 @@ systemctl daemon-reload
 sudo systemctl start snmp_exporter
 sudo systemctl enable snmp_exporter
 ##
-cd ..
 sudo cp ./prometheus.yml /etc/prometheus
 sudo systemctl enable prometheus
 sudo systemctl start prometheus
