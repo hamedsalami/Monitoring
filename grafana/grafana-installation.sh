@@ -24,8 +24,8 @@ sudo cp ./snmp_exporter /usr/local/bin/snmp_exporter
 sudo cp ./snmp.yml /usr/local/bin/snmp.yml
 sudo cp ./snmp-exporter.service /etc/systemd/system
 systemctl daemon-reload
-sudo service snmp-exporter start
-sudo systemctl enable snmp-exporter
+sudo systemctl start snmp_exporter
+sudo systemctl enable snmp_exporter
 ##
 cd ..
 sudo cp ./prometheus.yml /etc/prometheus
