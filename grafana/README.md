@@ -35,3 +35,5 @@ nano /etc/grafana/grafana.ini
 allow_embedding = true
 
 Anonymous Auth -> enabled=yes
+
+systemctl restart grafana-server
