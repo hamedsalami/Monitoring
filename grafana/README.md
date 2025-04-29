@@ -13,6 +13,9 @@ and sensor data. It is known for its user-friendly interface, ease of use, and p
 choice for data visualization and monitoring.
 
 **To install Grafana from grafana-installation.sh**
+sudo adduser mikrotik
+sudo adduser mikrotik sudo
+su mikrotik
 
 git clone grafana-installation.sh
 
