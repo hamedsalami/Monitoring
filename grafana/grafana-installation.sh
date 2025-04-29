@@ -31,6 +31,7 @@ sudo systemctl enable snmp_exporter
 sudo cp ./prometheus.yml /etc/prometheus
 sudo systemctl enable prometheus
 sudo systemctl start prometheus
+sudo systemctl restart prometheus
 ##
 sudo apt-get install -y apt-transport-https software-properties-common wget
 sudo mkdir -p /etc/apt/keyrings/
