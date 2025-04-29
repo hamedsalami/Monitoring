@@ -14,7 +14,9 @@ choice for data visualization and monitoring.
 
 **To install Grafana from grafana-installation.sh**
 sudo adduser mikrotik
+
 sudo adduser mikrotik sudo
+
 su mikrotik
 
 git clone grafana-installation.sh
