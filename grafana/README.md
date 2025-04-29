@@ -27,3 +27,11 @@ git clone grafana-installation.sh
 chmod +x grafana-installation.sh
 
 ./grafana-installation.sh
+
+**To Permit Share :**
+
+nano /etc/grafana/grafana.ini
+
+allow_embedding = true
+
+Anonymous Auth -> enabled=yes
