@@ -20,8 +20,9 @@ sudo systemctl start node_exporter
 wget https://github.com/prometheus/snmp_exporter/releases/download/v0.21.0/snmp_exporter-0.21.0.linux-amd64.tar.gz
 tar xzf snmp_exporter-0.21.0.linux-amd64.tar.gz
 cd snmp_exporter-0.21.0.linux-amd64
-sudo cp ./snmp_exporter /usr/local/bin/snmp_exporter
-sudo cp ./snmp.yml /usr/local/bin/snmp.yml
+sudo cp ./snmp_exporter /usr/local/bin
+sudo cp ./snmp.yml /usr/local/bin
+cd ..
 sudo cp ./snmp_exporter.service /etc/systemd/system
 systemctl daemon-reload
 sudo systemctl start snmp_exporter
