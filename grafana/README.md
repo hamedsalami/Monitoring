@@ -40,8 +40,8 @@ systemctl restart grafana-server
 
 **Change loading Image in share embedded**
 
- chmod 777 /usr/share/grafana/public/img/icons/mono/grafana.svg
+ chmod 777 /usr/share/grafana/public/img/grafana_icon.svg
 
- chmod 777 /usr/share/grafana/public/img/icons/mono
+ chmod 777 /usr/share/grafana/public/img/
 
- change the grafana.svg
+ change the grafana_icon.svg
