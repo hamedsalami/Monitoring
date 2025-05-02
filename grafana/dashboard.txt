@@ -1,4 +1,4 @@
+https://grafana.com/grafana/dashboards/14420-mikrotik-monitoring/
 https://grafana.com/grafana/dashboards/14857-mikrotik/
 https://grafana.com/grafana/dashboards/18460-mikrotik-dashboard/
-
 https://grafana.com/grafana/dashboards/14933-mikrotik-swos/
