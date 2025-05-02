@@ -1,1 +1,3 @@
 https://grafana.com/grafana/dashboards/18460-mikrotik-dashboard/
+
+https://grafana.com/grafana/dashboards/14933-mikrotik-swos/
