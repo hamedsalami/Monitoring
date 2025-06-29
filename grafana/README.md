@@ -14,6 +14,14 @@ choice for data visualization and monitoring.
 
 Grafana Dashboard for Mikrotik: 14420 , 14857
 
+18460 gozine haye khubi darad
+
+payeen ham nasb shavad
+
+https://github.com/akpw/mktxp
+
+https://grafana.com/grafana/dashboards/13679-mikrotik-mktxp-exporter/
+
 **To install Grafana from grafana-installation.sh**
 
 sudo adduser mikrotik
