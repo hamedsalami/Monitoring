@@ -16,6 +16,8 @@ Grafana Dashboard for Mikrotik: 14420 , 14857
 
 18460 gozine haye khubi darad
 
+14933 metric fiber darad
+
 payeen ham nasb shavad
 
 https://github.com/akpw/mktxp
