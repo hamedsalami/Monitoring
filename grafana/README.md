@@ -12,7 +12,7 @@ Grafana is widely used in industries such as IT, finance, healthcare, and more, 
 and sensor data. It is known for its user-friendly interface, ease of use, and powerful features, making it a popular 
 choice for data visualization and monitoring.
 
-Grafana Dashboard : 14420 ,
+Grafana Dashboard for Mikrotik: 14420 , 14857
 
 **To install Grafana from grafana-installation.sh**
 
