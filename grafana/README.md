@@ -18,6 +18,8 @@ Grafana Dashboard for Mikrotik: 14420 , 14857
 
 14933 metric fiber darad
 
+https://github.com/M0r13n/mikrotik_monitoring   in ham nasb shavad
+
 payeen ham nasb shavad
 
 https://github.com/akpw/mktxp
